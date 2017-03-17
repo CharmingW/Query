@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/no4"
+        android:layout_width="@dimen/query_item_size"
+        android:layout_height="@dimen/query_item_size"
+        android:layout_alignTop="@+id/no3"
+        android:layout_marginStart="@dimen/query_item_margin"
+        android:layout_toEndOf="@+id/no3"
+        android:background="@drawable/query_bg"
+        android:gravity="center"
+        android:text="号码归属"
+        android:textSize="@dimen/common_text_size" />
+
+    <TextView
+        android:id="@+id/no2"
+        android:layout_width="@dimen/query_item_size"
+        android:layout_height="@dimen/query_item_size"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@+id/no1"
+        android:layout_marginStart="@dimen/query_item_margin"
+        android:layout_toEndOf="@+id/no1"
+        android:background="@drawable/query_bg"
+        android:gravity="center"
+        android:text="域名注册"
+        android:textSize="@dimen/common_text_size" />
+
+    <TextView
+        android:id="@+id/no3"
+        android:layout_width="@dimen/query_item_size"
+        android:layout_height="@dimen/query_item_size"
+        android:layout_alignStart="@+id/no1"
+        android:layout_below="@+id/no1"
+        android:layout_marginTop="@dimen/query_item_margin"
+        android:background="@drawable/query_bg"
+        android:gravity="center"
+        android:text="身份信息"
+        android:textSize="@dimen/common_text_size" />
+
+    <TextView
+        android:id="@+id/no1"
+        android:layout_width="@dimen/query_item_size"
+        android:layout_height="@dimen/query_item_size"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/query_bg"
+        android:gravity="center"
+        android:text="ip地址归属"
+        android:textSize="@dimen/common_text_size" />
+
+    <TextView
+        android:id="@+id/no5"
+        android:layout_width="@dimen/query_item_size"
+        android:layout_height="@dimen/query_item_size"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignStart="@+id/no3"
+        android:layout_below="@+id/no3"
+        android:layout_marginTop="@dimen/query_item_margin"
+        android:background="@drawable/query_bg"
+        android:gravity="center"
+        android:text="智能问答"
+        android:textSize="@dimen/common_text_size" />
+
+    <TextView
+        android:id="@+id/no6"
+        android:layout_width="@dimen/query_item_size"
+        android:layout_height="@dimen/query_item_size"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@+id/no5"
+        android:layout_marginStart="@dimen/query_item_margin"
+        android:layout_toEndOf="@+id/no5"
+        android:background="@drawable/query_bg"
+        android:gravity="center"
+        android:text="成语大全"
+        android:textSize="@dimen/common_text_size" />
+</RelativeLayout>

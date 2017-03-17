@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="query_item_margin">20dp</dimen>
+    <dimen name="query_item_size">150dp</dimen>
+    <dimen name="query_item_vertical_spacing">40dp</dimen>
+    <dimen name="common_text_size">20sp</dimen>
+    <dimen name="common_vertical_spacing">30dp</dimen>
+    <dimen name="common_vertical_spacing_l">40dp</dimen>
+    <dimen name="common_vertical_spacing_s">20dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_word"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_vertical_spacing_s"
+        android:gravity="center_vertical|center"
+        android:hint="输入一个成语"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_word"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_vertical_spacing"
+        android:text="查询"
+        android:textSize="@dimen/common_text_size" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_query"
+        android:layout_marginTop="@dimen/common_vertical_spacing">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/common_text_size" />
+    </ScrollView>
+
+
+</RelativeLayout>

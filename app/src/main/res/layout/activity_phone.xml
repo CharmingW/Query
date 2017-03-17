@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_phone"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/query_item_vertical_spacing"
+        android:gravity="center_vertical|center"
+        android:textSize="@dimen/common_text_size"
+        android:inputType="phone"
+        android:hint="输入电话号码，如15810008888" />
+
+    <Button
+        android:text="查询"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_vertical_spacing"
+        android:id="@+id/btn_query"
+        android:textSize="@dimen/common_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_query"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_vertical_spacing"
+        android:id="@+id/tv_result"
+        android:gravity="left"
+        android:textSize="@dimen/common_text_size" />
+
+</RelativeLayout>
